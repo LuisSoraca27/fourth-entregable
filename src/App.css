@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  text-align: center;
+  display: flex;
+}
+
+.container {
+  width: 50%;
+  height: 100vh;
+}
+
+.users {
+  margin: 20px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 6px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  text-align: left;
+}
+
+.container-users {
+  width: 50%;
+  background-color: blueviolet;
+  height: 100vh;
+  overflow-y: scroll;
+}
+
+.data-user {
+  width: 80%;
+}
+
+p {
+  padding: 2px;
+}
+
+.users button {
+  margin-right: 5px;
+  padding: 5px;
+  font-size: 23px;
+  background-color: transparent;
+  border: none;
+}
+
+.helper{
+  width: 400px;
+  height: 30px;
+}
+
+.container-form {
+  padding: 50px;
+  text-align: left;
+  background-color: blueviolet;
+  width: 50%;
+}
+
+.container-form i {
+  font-size: 30px;
+}
+
+.helper {
+  margin-left: 20px;
+  height: 30px;
+}
+
+.name {
+  width: 195px;
+  height: 30px;
+  margin-left: 20px;
+}
+
+.lastname {
+  width: 195px;
+  margin-left: 10px;
+  height: 30px;
+}
+
+input {
+  height: 80px;
+  margin-top: 0;
+  margin-bottom: 10px;
+  background-color: rgba(238, 238, 238, .5);
+  border-radius: 6px;
+  border: none;
+}
+
+.container-form button {
+  margin-top: 20px;
+  margin-left: 45px;
+  background-color: #5fbab0;
+  border-radius: 7px;
+}
+
+form {
+  background-color: aliceblue;
+  padding: 40px;
+  border-radius: 10px;
+}
+
+h1 {
+  margin-bottom: 15px;
+}
